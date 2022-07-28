@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/headerImg"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/greenblock" />
+
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/streaksBtn"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/ic_baseline_local_fire_department_24"
+        android:drawableTint="#DF4919"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="goToSettings"
+        android:text="@string/_0"
+        android:textAllCaps="false"
+        android:textColor="#DF4919"
+        android:textSize="16sp"
+        app:cornerRadius="250dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userProfileBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@id/pageTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/user"
+        android:onClick="goToSettings"/>
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="78dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/welcome_back2"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userNameMsg"
+        android:text="@string/user_name"
+        android:textSize="35sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/welcomeMsg"
+        android:layout_marginVertical="40dp"
+        android:layout_marginStart="20dp"/>
+
+    <!--<Button
+        android:id="@+id/viewCollectionTempBtn"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#35ED4A"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="goToCollectionOnClick"
+        android:text="@string/vcp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:cornerRadius="50dp" />-->
+
+    <ListView
+        android:id="@+id/collectionListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerImg"
+        android:divider="@null"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddModule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#35EC4B"
+        android:contentDescription="@string/add_collection_btn"
+        android:src="@drawable/ic_baseline_add_24" />
+
+</RelativeLayout>

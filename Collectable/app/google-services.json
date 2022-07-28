@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221601708",
+    "project_id": "collectable-9b5d4",
+    "storage_bucket": "collectable-9b5d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221601708:android:f960daa3212f13287da409",
+        "android_client_info": {
+          "package_name": "com.example.collectable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221601708-u14pi67o64ivq9ct3uh3bqoq21jvn3a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN4nMhFxkFcCA3xm80mcBQtK9cfVtNuYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221601708-u14pi67o64ivq9ct3uh3bqoq21jvn3a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

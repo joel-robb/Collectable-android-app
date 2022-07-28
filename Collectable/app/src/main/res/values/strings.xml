@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Collectable</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_collectable">Welcome to Collectable!</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="logo">logo</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">Register</string>
+    <string name="register_with_email">Register with Email</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_your_first_name">Enter your first name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_your_last_name">Enter your last name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_your_password">Re-enter your password</string>
+    <string name="home">Home</string>
+    <string name="welcome_back2">Welcome back,</string>
+    <string name="joel_robb">Joel Robb</string>
+    <string name="view_collection_page">View Collection Page</string>
+    <string name="filter">Filter</string>
+    <string name="collection_name">Collection Name</string>
+    <string name="search">Search</string>
+    <string name="add_item_button">Add Item Button</string>
+    <string name="create_collection">Create Collection</string>
+    <string name="add_item">Add Item</string>
+    <string name="template">Template</string>
+    <string name="title">Title</string>
+    <string name="template_prompt">Select a template</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_of_items">Enter # of items</string>
+    <string name="item_goal">Item Goal</string>
+    <string name="add_items">Add Items</string>
+    <string name="icon">Icon</string>
+    <string name="name_of_field">Name of field</string>
+    <string name="field_name">Field Name</string>
+    <string name="field_datatype">Field Datatype</string>
+    <string name="add">Add</string>
+    <string name="create_new_collection">Create new Collection</string>
+    <string name="to_collection">To: \'Collection\'</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="name">Name</string>
+    <string name="enter_the_item_name">Enter the item name</string>
+    <string name="photos">Photos</string>
+    <string name="field">Field</string>
+    <string name="_23_45">23/45</string>
+    <string name="vcp">VCP</string>
+    <string name="add_collection_btn">Add Collection Btn</string>
+    <string name="user_name">User name</string>
+    <string name="datatype">Datatype</string>
+    <string name="add_item_to_collection">Add item to Collection</string>
+    <string name="enter_the_field_value">Enter the field value</string>
+    <string name="log_out">Log out</string>
+    <string name="stats">Stats</string>
+    <string name="about_the_app">About the app</string>
+    <string name="about">About</string>
+    <string name="aboutP1">This is an app for managing and keeping track of collections of items, whatever you want to collect, the idea is that this app will help you keep track of it.</string>
+    <string name="aboutP2">Users can Register and Log-in to the app and then create categories for the items that they would like to collect by defining new collections. When making these collections you can set a goal for the number of items that you want in a collection. You can then add items to each category/collection; specifying the name, date acquired and description, take photos of the items and store them. The item will then be viewable in a list of items in the collection which you are able to search through.</string>
+    <string name="aboutP3">From the home screen you are able to view the progress you have made on each collection and when you go to a collection you can view a graph showing the percentage complete for that collection. You are also able to form streaks by continuing to add to each of your collections within a the timeframe set by you.</string>
+    <string name="current_streak">Current Streak:</string>
+    <string name="streaks">Streaks</string>
+    <string name="streakAboutBody">Streaks are a way to help you keep your collections up to date! Set a timeframe for how often you would like to add to your collections and every time you add an item within the that time frame, you will increase your streak!</string>
+    <string name="_0">0</string>
+    <string name="question_mark">?</string>
+    <string name="notifications">Notifications</string>
+    <string name="notificationOn">Turn notifications on?</string>
+    <string name="settings">Settings</string>
+    <string name="turn_off_streaks">Turn off Streaks?</string>
+    <string name="how_frequantly_would_you_like_to_add_to_your_collections">How frequently would you like to add to your collections?</string>
+    <string name="what_are_streaks">What are streaks?</string>
+    <string name="once_every">Once Every:</string>
+    <string name="frequency">Frequency:</string>
+    <string name="currently_set_to_once_a_day">Currently set to: Once a day</string>
+    <string name="update_frequency">Update Frequency</string>
+    <string name="click_here_for_more_about_the_app">Click here for more about the app!</string>
+    <string name="item_details">Item Details</string>
+    <string-array name="collection_template_array">
+        <item>Select a template</item>
+        <item>Movies</item>
+        <item>Books</item>
+        <item>Wine</item>
+        <item>Cars</item>
+        <item>Paintings</item>
+    </string-array>
+    <string-array name="collection_icon_array">
+        <item>Select an icon</item>
+        <item>CD</item>
+        <item>Book</item>
+        <item>Wine Glass</item>
+        <item>Car</item>
+        <item>Picture</item>
+        <item>Figurine</item>
+    </string-array>
+    <string-array name="field_datatype_array">
+        <item>Select a datatype</item>
+        <item>text</item>
+        <item>number</item>
+        <item>date</item>
+    </string-array>
+    <string-array name="streak_frequency_array">
+        <item>Once a day</item>
+        <item>Once a week</item>
+        <item>Twice a month</item>
+        <item>Once a month</item>
+        <item>Once every 3 months</item>
+        <item>Twice a year</item>
+        <item>Once a year</item>
+    </string-array>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35EC4B"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:background="#2D6633"
+        app:srcCompat="@drawable/logo1"
+        android:padding="30dp"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/welcome_to_collectable"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/goToLoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/welcomeMsg"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="goToLoginOnClick"
+        android:text="@string/sign_in_with_email"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/goToRegisterBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/goToLoginBtn"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#2D6633"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="goToRegisterOnClick"
+        android:text="@string/register_with_email"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:cornerRadius="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/click_here_for_more_about_the_app"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:onClick="goToAboutOnClick"/>
+
+</RelativeLayout>
